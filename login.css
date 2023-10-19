@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Concert One', sans-serif;
+    background-color: blue;
+}
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: aqua;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    color: brown;
+}
+label{
+    font-size: 20px;
+}
+input{
+    /* width: 100%; */
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+#new{
+    text-align: center;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+#cancle{
+    background-color: black;
+}
+#icon{
+    position: relative;
+}
+.fa-solid{
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+#pass{
+    position: relative;
+}
+.fa-unlock{
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
